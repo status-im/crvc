@@ -14,14 +14,13 @@ Inspired by [mango](https://github.com/axic/mango) and [pando](https://github.co
 
 ### Goals
 
-- Friends don't let friends run untrusted binaries, however trust is in the eye of the beholder.
+- Friends don't let friends run untrusted binaries.
 - Providing some assurance that:
     + the binaries and build environment were not tampered with
     + the same source code was used.
 - Checking for updates should be passive.
-- Updating should be voluntary.
 - A user should be able to independently build and check artifacts against the respective hash of a binary.
-
+- Updating should be voluntary, trust is in the eye of the beholder.
 
 ### Todo
 - Contract Games
