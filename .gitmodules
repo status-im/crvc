@@ -1,0 +1,3 @@
+[submodule "crvc-games"]
+	path = crvc-games
+	url = git@github.com:status-im/crvc-games.git
