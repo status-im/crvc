@@ -42,11 +42,13 @@ To allow coordination of source code and binary releases among a group of actors
 
 ### Features
 
-- TODO
+- Smart Contract Managed Git Repository
+- Source and Binaries are Stored on Swarm/IPFS
+- A set of Cryptoeconomic Games
 
 ### Who is it for?
 
-CRVC is for developers that cannot rely on access control lists (and therefore trust and unique identities) to manage their software repositories.
+CRVC is for developers that cannot rely on access control lists (and therefore trust and unique identities) to manage their software repositories and binary releases.
 
 ### What CRVC isn't
 
@@ -57,7 +59,7 @@ CRVC is for developers that cannot rely on access control lists (and therefore t
 
 While it's my belief that the introduction of Australia's Telecommunications and Other Legislation Amendment (Assistance and Access) Act 2018 and the recent FATF Recommendations are well-intentioned, it is clear that these rules are alarming, harmful and prematurely stifle innovation, preventing us from discovering newer, more efficient ways of protecting users and upholding [human rights](http://www.un.org/en/universal-declaration-human-rights/).
 
-As a result, these actions point to a future where I or Status Research & Development GmbH nay be prevented from producing & distributing binaries that do not comply with distribution channel terms of service and jurisdictional policies. CRVC is a foot in the door, it may allow for a future where future generations can create software that better upholds [human rights](http://www.un.org/en/universal-declaration-human-rights/).
+As a result, these actions point to a future where I or Status Research & Development GmbH may be prevented from producing & distributing binaries that do not comply with distribution channel terms of service and jurisdictional policies. CRVC is a foot in the door, it may allow for a future where future generations can create software that better upholds [human rights](http://www.un.org/en/universal-declaration-human-rights/).
 
 ## Get started
 
