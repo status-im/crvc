@@ -1,4 +1,4 @@
-
+<p align="center"><img src="https://raw.githubusercontent.com/status-im/crvc/master/docs/crvc.png"></p>
 <h1 align="center">CRVC</h1>
 <h2 align="center"> Cryptoeconomic Release & Version Control</h1>
 
