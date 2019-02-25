@@ -4,7 +4,7 @@ const
   gitEnv = "GIT_DIR"
   protocol = "crvc"
 
-proc setup(gitEnv: string, protocol: string): (string, string, string, string) =
+proc setup(gitEnv: string, protocol: string): (string, string, string) =
   # Checks the Environment and returns the git Working directory, the protocol, the remote and url
 
   if paramCount() < 2:
@@ -24,15 +24,16 @@ proc setup(gitEnv: string, protocol: string): (string, string, string, string) =
     raise newException(OSError, fmt"{gitDir} does not appear to be a git repository")
 
   # Create our Working Directory if it doesn't exist
-  let path = joinPath(gitDir, protocol, remote)
+  let path = joinPath(gitDir, remote)
   if not existsDir(path):
     createDir(path)
-  return (gitDir, protocol, remote, url) # I don't like result, too immutable
+  # TODO process url and pass to processStdio parseUrl?
+  return (path, remote, url)
 
 proc processStdio (env: tuple): void = 
   # Supports the Git Remote Helper stdio protocol
   # https://git-scm.com/docs/git-remote-helpers
-  let (gitDir, protocol, remote, url) = env
+  let (path, remote, url) = env
 
   while true:
     var
